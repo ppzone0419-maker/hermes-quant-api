@@ -1,4 +1,3 @@
-"""
 HERMES Quant — FastAPI 後端主程式
 端點：
   POST /api/backtest        → 執行回測
