@@ -1,4 +1,3 @@
-""
 HERMES Quant — Base Backtest Engine
 - Bar-based 撮合（最壞打算原則防止聖盃假象）
 - 支援股票 / 外匯 / 黃金 / 加密貨幣
