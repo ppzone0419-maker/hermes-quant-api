@@ -1,4 +1,5 @@
-HERMES Quant — Data Loader
+"""
+HERMES Quant - Data Loader
 - yfinance 抓取免費數據
 - Parquet 本地快取（相同標的+時間不重複抓）
 - 自動清洗離群值 (Bad Ticks)
