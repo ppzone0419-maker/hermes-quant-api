@@ -1,4 +1,5 @@
-HERMES Quant — 內建策略集
+"""
+HERMES Quant - 內建策略集
 支援：SMC (Order Block + BOS)、動量、均線交叉、RSI均值回歸、布林通道
 """
 from __future__ import annotations
@@ -92,7 +93,7 @@ def strategy_momentum(
     return pd.DataFrame({"signal": signal})
 
 
-# ── 5. SMC — Order Block + BOS 策略 ─────────────────────────────────────────
+# ── 5. SMC - Order Block + BOS 策略 ─────────────────────────────────────────
 def strategy_smc_ob(
     df: pd.DataFrame,
     ob_lookback: int = 10,
@@ -132,7 +133,7 @@ def strategy_smc_ob(
     return pd.DataFrame({"signal": signal})
 
 
-# ── 6. CRT — Candle Range Theory ────────────────────────────────────────────
+# ── 6. CRT - Candle Range Theory ────────────────────────────────────────────
 def strategy_crt(
     df: pd.DataFrame,
     range_bars: int = 3,
