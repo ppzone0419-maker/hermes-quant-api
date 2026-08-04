@@ -1,4 +1,5 @@
-HERMES Quant — 倉位管理 & 資金優化
+"""
+HERMES Quant - 倉位管理 & 資金優化
 - 風險平價 (Risk Parity)
 - 均值-變異數最佳化 (Mean-Variance / Kelly)
 - 固定風險倉位計算
